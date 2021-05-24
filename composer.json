@@ -1,0 +1,14 @@
+{
+    "name": "fishpig/magento2-remove-catalog-import-export",
+    "description": "Remove CatalogImportExport.",
+    "type": "project",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "Magento\\CatalogImportExport\\": "Mock/Magento/CatalogImportExport"
+        }
+    },
+    "replace": {
+        "magento/module-catalog-import-export": "*"
+    }
+}
